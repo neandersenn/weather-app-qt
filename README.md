@@ -1,32 +1,23 @@
-# Weather App (Qt/C++)
+# Weather App
 
-Приложение для просмотра текущей погоды в любом городе. Использует бесплатное API OpenWeatherMap.
+Simple app for checking current weather in any city. Using free API OpenWeatherMap.
 
 ![Скриншот приложения](screenshots/app.png)
 
-## Возможности
+## Features
 
-- Поиск погоды по названию города
-- Отображение температуры, влажности, скорости ветра
-- Иконка погоды (солнце, облака, дождь и т.д.)
-- Кнопка обновления
+- Search weather with city name
+- Weather icon
+- Refresh button
 
-## Стек технологий
-
-- **C++ (Qt 6/5)**
-- **Qt Network** — HTTP-запросы к API
-- **JSON** — парсинг ответов
-- **CMake** — система сборки
-
-## Как собрать и запустить
-
-### Требования
-- Qt 5.15 или выше
+### Requirements
+- Qt 5.15 or higher
 - CMake 3.5+
 
-### Сборка и запуск
+### Build and run
 
 ```bash
+cd weather-app-qt
 mkdir build && cd build
 cmake ..
 make
